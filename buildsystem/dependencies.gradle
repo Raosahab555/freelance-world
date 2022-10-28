@@ -1,0 +1,18 @@
+ext {
+    okhttpVersion = "3.6.0"
+    retrofitVersion = "2.4.0"
+
+    commonDependencies = [
+            gson                 : "com.google.code.gson:gson:2.8.0",
+            kotlin               : "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion",
+            okhttpLogging        : "com.squareup.okhttp3:logging-interceptor:$okhttpVersion",
+            okhttpMock           : "com.squareup.okhttp3:mockwebserver:$okhttpVersion",
+            retrofit             : "com.squareup.retrofit2:retrofit:$retrofitVersion",
+            retrofitAdapterRxJava: "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion",
+            retrofitConverterGson: "com.squareup.retrofit2:converter-gson:$retrofitVersion",
+            rxAndroid            : "io.reactivex.rxjava2:rxandroid:2.1.0",
+            rxJava               : "io.reactivex.rxjava2:rxjava:2.2.5",
+            rxKotlin             : "io.reactivex.rxjava2:rxkotlin:2.3.0"
+    ]
+
+}
